@@ -20,11 +20,6 @@ namespace CesarCryptography
             {
                 Console.Write(aa[i] + " ");
             }
-            //Console.Write("\n");
-            //for (int i = 0; i < ainv.Length; i++)
-            //{
-            //    Console.Write(ainv[i] + " ");
-            //}
         }
         public bool CheckA()
         {
@@ -184,6 +179,7 @@ namespace CesarCryptography
 }
 
 /*
+ * Sequence of execution:
  * 1. Table print for 'a'
  * 2. Get key
  * 3. Get string
